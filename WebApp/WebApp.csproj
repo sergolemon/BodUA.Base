@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Persistence\Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Management\ViewModels\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>
