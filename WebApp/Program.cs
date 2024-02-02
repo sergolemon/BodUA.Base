@@ -13,7 +13,7 @@ app.UseRouting();
 app.UseStaticFiles();
 
 app.UseEndpoints(endpoints => {
-    endpoints.MapFallbackToPage("/Host");
+    endpoints.MapRazorPages();
     endpoints.MapBlazorHub();
 });
 

@@ -1,0 +1,15 @@
+﻿span {
+    white-space: nowrap;
+}
+
+div{
+    overflow: hidden;
+    background-color: aqua;
+    width: 100%;
+    max-width: 0;
+    transition: all ease 2s;
+}
+
+div.active{
+    max-width: 100%;
+}
